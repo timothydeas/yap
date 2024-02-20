@@ -1,1 +1,5 @@
-alert('Hello, World!');
+// alert('Hello, World!');
+
+function clickOMatic() {
+    alert('Clicked!');
+}
