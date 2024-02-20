@@ -7,19 +7,23 @@
 // let clickOMatic = () => alert('Hello!');
 
 // the following is the way we want to most declare fuctions:
-function clickOMatic() {
-    alert('Hello!');
-}
+// function clickOMatic() {
+//     alert('Hello!');
+// }
 
+
+// window.onload = function() {
+//     const click = document.getElementById('click');
+
+//     click.addEventListener("click", (event) => {
+//     clickOMatic();
+    
+//     });
+
+// };
 
 window.onload = function() {
-    const click = document.getElementById('click');
-
-    click.addEventListener("click", (event) => {
-    clickOMatic();
-    
-    });
-
+    ScrollReveal().reveal('.site', {delay: 1000});
 };
 
 
