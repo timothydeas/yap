@@ -1,5 +1,9 @@
 // alert('Hello, World!');
 
-function clickOMatic() {
-    alert('Hello!');
-}
+// function clickOMatic() {
+//     alert('Hello!');
+// }
+
+let clickOMatic = function() {
+    alert('Hello');
+};
