@@ -11,9 +11,15 @@ function clickOMatic() {
     alert('Hello!');
 }
 
-const click = document.getElementById('click');
 
-click.addEventListener("click", (event) => {
-clickOMatic();
+window.onload = function() {
+    const click = document.getElementById('click');
 
-});
+    click.addEventListener("click", (event) => {
+    clickOMatic();
+    
+    });
+
+};
+
+
