@@ -4,6 +4,8 @@
 //     alert('Hello!');
 // }
 
-let clickOMatic = function() {
-    alert('Hello');
-};
+// let clickOMatic = function() {
+//     alert('Hello');
+// };
+
+let clickOMatic = () => alert('Hello!');
